@@ -1,0 +1,37 @@
+/* App.css */
+
+/* Resetando margens e padding globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%; /* Garante que a largura total da tela será usada */
+  height: 100%; /* Faz com que o body ocupe toda a altura da tela */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh; /* Certifica-se de que ocupa toda a altura */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%; /* Garante que o container ocupa a tela toda */
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
