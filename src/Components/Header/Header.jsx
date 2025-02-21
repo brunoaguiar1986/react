@@ -41,7 +41,15 @@ const Header = () => {
               Aulas
             </NavLink>
           </li>
-      
+          <li>
+            <NavLink 
+              to="/professores" 
+              activeClassName="active"
+              onClick={closeMenu}
+            >
+              Professores
+            </NavLink>
+          </li>
           <li>
             <NavLink 
               to="/horario-localizacao" 
